@@ -1,0 +1,126 @@
+
+{
+"listaCpr":[
+    
+   
+    {
+        "ruc_dni": "123456789",
+        "referencia_factura": "ref.1000",
+        "moneda":"US$",
+        "importe_documento":"7500",
+        "importe_retencion": "950",
+        "importe_cancelado":"10000",
+        "banco":"SCOTIABANK",
+        "cuenta_abono":"100986554874",
+        "fecha_pago":"201122",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "223456789",
+        "referencia_factura": "ref.1001",
+        "moneda":"PEN",
+        "importe_documento":"2500",
+        "importe_retencion": "950",
+        "importe_cancelado":"5000",
+        "banco":"BBVA",
+        "cuenta_abono":"1002648597454121",
+        "fecha_pago":"200221",
+        "concepto_pago":"ONP"
+    },
+    {
+        "ruc_dni": "323456789",
+        "referencia_factura": "ref.1002",
+        "moneda":"PEN",
+        "importe_documento":"39500",
+        "importe_retencion": "650",
+        "importe_cancelado":"3900",
+        "banco":"MIBANCO",
+        "cuenta_abono":"1004434584878",
+        "fecha_pago":"10112020",
+        "concepto_pago":"CREDITO"
+    },
+    {
+        "ruc_dni": "423456789",
+        "referencia_factura": "ref.1003",
+        "moneda":"US$",
+        "importe_documento":"4500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "523456789",
+        "referencia_factura": "ref.1004",
+        "moneda":"US$",
+        "importe_documento":"1500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "645456789",
+        "referencia_factura": "ref.1005",
+        "moneda":"US$",
+        "importe_documento":"1500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "77786789",
+        "referencia_factura": "ref.1006",
+        "moneda":"US$",
+        "importe_documento":"2500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "966556789",
+        "referencia_factura": "ref.1007",
+        "moneda":"US$",
+        "importe_documento":"3500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "2015456789",
+        "referencia_factura": "ref.1008",
+        "moneda":"US$",
+        "importe_documento":"4500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    },
+    {
+        "ruc_dni": "986456789",
+        "referencia_factura": "ref.1009",
+        "moneda":"US$",
+        "importe_documento":"1500",
+        "importe_retencion": "150",
+        "importe_cancelado":"3000",
+        "banco":"BCP",
+        "cuenta_abono":"1234584878",
+        "fecha_pago":"20-12-12",
+        "concepto_pago":"AFP"
+    }
+]}

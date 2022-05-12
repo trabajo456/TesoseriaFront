@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+.spacer {
+    flex: 1 1 auto;
+  }
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.marco {
+    border: 1px solid;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.contenedor-login{
+    margin-top: 10vh;
+}
+
+.cont-logo {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 6vh;
+
+}
+
+.logo {
+    width: 40%;
+
+
+}
+
+table {
+    width: 100%;
+}
+
+
+.cont-filtro {
+
+    display: flex;
+    width: 100wh;
+}
+
+
+
+.tabla-encabezado {
+    padding: 0px 20px;
+}
+
+.date-block {
+
+    display: flex;
+    width: 75%;
+}
+
+.date-block__list {
+
+
+    width: 30%;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 0 0;
+
+    margin-bottom: 20px;
+}

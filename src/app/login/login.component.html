@@ -1,0 +1,43 @@
+<div class="contenedor-login">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 cont-logo">
+
+            <img class="logo" src="../../assets/img/logo.png" style="max-width:100%;width:40wh;height:auto;">
+
+        </div>
+    </div>
+    <div class="row justify-content-center">
+
+        <div class="col-md-4 col-sm-8 marco">
+
+            <form class="mt-5" autocomplete="off" (ngSubmit)="login(formulario)" #formulario="ngForm">
+                <mat-form-field class="mb-2 d-block" appearance="outline">
+                    <mat-label>Usuario</mat-label>
+                    <input matInput type="text" placeholder="Usuario" name="username" [(ngModel)]="username" required
+                        #email="ngModel">
+                </mat-form-field>
+
+                <mat-form-field class="mb-2 d-block" appearance="outline">
+                    <mat-label>Enter your password</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'" placeholder="Contraseña" name="password"
+                        [(ngModel)]="pass" required #password="ngModel">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
+                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                </mat-form-field>
+
+
+                <br>
+                <div class="text-end">
+                    <button class="btn btn-primary" mat-flat-button color="primary">
+                        Ingresar
+                    </button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
